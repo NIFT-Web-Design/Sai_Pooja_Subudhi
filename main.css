@@ -1,0 +1,381 @@
+body {
+  font-family: Quicksand;
+  font weight: 400;
+}
+
+header {
+  background-color: #2A2A2A;
+  padding: 16px 0px;
+}
+
+header>div {
+  margin: 0 auto;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  text-transform: uppercase;
+  color: #c9c7c7;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: all .3s;
+}
+
+header a:hover {
+  color: white;
+}
+
+#active {
+  background-color: #107698;
+  border-radius: 4px;
+  color: white;
+}
+
+#orangeHighlight {
+  color: #FDB530;
+}
+
+/* Our services (SECTION 1) */
+h1 {
+  font-weight: 300;
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+  background-position: center;
+  color: #ffff;
+  font-size: 50px;
+  text-shadow: 1px 2px 2px #000;
+  text-align: center;
+  padding: 70px 0;
+  width: 100;
+}
+
+/* Common Margin Styling */
+.vServices .commonDivision, .columns {
+  max-width: 1150px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+/* common content styling */
+.vServices {
+  padding: 40px;
+}
+
+.commonDivision p span {
+  color: #FFA500;
+}
+
+/* We serve Higher Education and Beyond (SECTION 2) "commonDivision styling" */
+div.commonDivision h2 {
+  color: #0a465b;
+  font-size: 32px;
+  font-weight: 350;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+div.commonDivision>p {
+  color: #7f969e;
+  font-size: 16px;
+  font-weight: 500;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.4;
+  padding: 10px 0;
+  height: 100%;
+}
+
+/* A veriety of services (SECTION 3) */
+.greyBackground {
+  background-color: #EDEff3;
+  /* padding: 50px 0 70px; */
+}
+
+.columns {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 32px;
+}
+
+.columns article {
+  width: 260px;
+  background-color: white;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0/20%);
+}
+
+.columns .firstSectionColumn h3 {
+  background-color: #107698;
+  color: white;
+  font-size: 19px;
+  height: 110px;
+  text-transform: uppercase;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 300;
+  width: 100%;
+  border-bottom: 5px solid lightgrey;
+  padding: 28px 10px 25px 10px;
+  line-height: 1.4;
+}
+
+.columns .firstSectionColumn p {
+  color: #7f969e;
+  padding: 20px 25px;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.firstSectionColumn p span {
+  color: #FFA500;
+}
+
+/* Flexibility with timing,budget and location (SECTION 4) */
+.vServices #consultance {
+  margin-left: 140px;
+}
+
+.smallSection {
+  max-width: 350px;
+  margin-top: 30px;
+  margin-left: 30px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.smallSection .fourthSectionColumn h3 {
+  font-size: 20px;
+  color: #0a465b;
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: 600;
+  border-bottom: 2px solid #FDB530;
+  padding: 7px 0px;
+  margin: auto;
+  width: 80%;
+}
+
+.smallSection .fourthSectionColumn p {
+  color: #7f969e;
+  padding: 15px 25px 20px;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* A Wide Variety of Specializations  (SECTION 5)*/
+.greyBackground {
+  background-color: #EDEff3;
+  padding: 50px 0 70px;
+}
+
+#sContainer h2 {
+  color: #0a465b;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#sContainer P {
+  color: #7f969e;
+  font-size: 16px;
+  font-weight: 500;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 25px;
+}
+
+.columnThree {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 75px;
+}
+
+.columnThree article {
+  width: 310px;
+  background-color: white;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0/20%)
+}
+
+.columnThree .fifthSectionColumn h3 {
+  background-color: #107698;
+  color: white;
+  font-size: 17px;
+  height: 85px;
+  text-transform: uppercase;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 300;
+  width: 100%;
+  border-bottom: 5px solid lightgrey;
+  padding: 28px 10px 25px 10px;
+  line-height: 1.4;
+}
+
+.columnThree .fifthSectionColumn p {
+  color: #7f969e;
+  padding: 20px 25px 35px 25px;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.columnThree .fifthSectionColumn p span {
+  color: #FFA500;
+}
+
+/* Get In Touch  ( SECTION 6)*/
+#smallBox {
+  height: 270px;
+}
+
+.vServices #getInTouch h2 {
+  color: #0a465b;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  padding: 5px 0px 30px 0px;
+}
+
+.vServices .container {
+  margin: 0 162px;
+  display: inline-block;
+  padding-bottom: 40px;
+}
+
+.vServices .container .contactUs {
+  display: inline-block;
+}
+
+.vServices .container .hover {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#contactpic {
+  border-radius: 50%;
+  border: 8px solid rgba(253, 181, 48, .7);
+  margin-left: 130px;
+  position: relative;
+  left: 30px;
+  bottom: 140px;
+}
+
+#happytohelp {
+  color: grey;
+  font-weight: 500;
+  border-top: 1px solid #107698;
+  border-bottom: 1px solid #107698;
+  width: 260px;
+  padding: 10px 0px;
+  text-align: center;
+  line-height: 1.4;
+  display: inline-block;
+  margin-top: 16px;
+  position: relative;
+  bottom: 90px;
+  right: 190px;
+}
+
+.contactUs #separationLine {
+  position: absolute;
+  top: 2850px;
+  right: 830px;
+  height: 25%;
+}
+
+.hover {
+  padding-top: 90px;
+}
+
+.hover .connectContainer {
+  min-width: 350px;
+  max-width: 350px;
+  text-align: center;
+  border-top: 4px solid #dfdfe0;
+  margin-top: 35px;
+  padding-top: 25px;
+  position: relative;
+  top: -100px;
+  right: 50px;
+}
+
+.hover a #button {
+  background-color: #107698;
+  border: 2px solid #FDB530;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  width: 165px;
+  padding: 15px 0px 15px 50px;
+  transition: .2s;
+  position: relative;
+  top: -100px;
+  right: 50px;
+  margin-left: 65px;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  display: inline-block;
+}
+
+.connectContainer #linkedImg, #twitterImg, #facebookImg {
+  border: 5px solid #dfdfe0;
+  border-radius: 50%;
+  margin: 0 12px;
+  height: 5%;
+}
+
+/* Trusted by  ( SECTION 7)*/
+#trustedBy {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #EDEff3;
+}
+
+#trustedBy h2 {
+  color: #0a465b;
+  font-size: 32px;
+  font-weight: 350;
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+/* Footer(Copyright) ( SECTION )*/
+footer {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #504f4f;
+  color: #c7c5c5;
+}
+
+footer>section {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+footer>section>div {
+  display: inline-block;
+  font-size: 15px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
