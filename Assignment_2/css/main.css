@@ -136,6 +136,10 @@ h4 {
   padding-bottom: 7pt;
 }
 
+#specialCase {
+  padding-top: 2pt;
+}
+
 #contactMe {
   color: #666;
   font-family: Cambria, serif;
@@ -177,4 +181,20 @@ h4 {
   line-height: 120%;
   text-align: left;
   padding-bottom: 6pt;
+}
+
+#skillS{
+  color: #666;
+  font-family: Cambria, serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 8pt;
+  margin: 0pt;
+  padding-top: 2pt;
+  padding-left: 5pt;
+  text-indent: 0pt;
+  line-height: 120%;
+  text-align: left;
+  padding-bottom: 5pt;
 }
