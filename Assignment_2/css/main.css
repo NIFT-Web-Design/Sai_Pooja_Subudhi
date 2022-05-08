@@ -1,0 +1,180 @@
+h1 {
+  color: black;
+  font-family: Cambria, serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 34pt;
+  padding-top: 50pt;
+  padding-left: 350pt;
+  text-indent: 0pt;
+  text-align: left
+}
+
+#italic {
+  color: #424242;
+  font-family: Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 11pt;
+  padding-top: 6pt;
+  padding-left: 350pt;
+  text-indent: 0pt;
+  text-align: left;
+}
+
+.flexContainer {
+  display: flex;
+  padding-top: 10pt;
+  padding-left: 350pt;
+  padding-bottom: 50pt;
+}
+
+.sideBar {
+  padding-left: 20pt;
+}
+
+h3 {
+  color: #2078C7;
+  font-family: Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 9pt;
+  padding-left: 5pt;
+  text-indent: 0pt;
+  text-align: left;
+  padding-bottom: 15pt;
+  padding-top: 30pt;
+}
+
+h2 {
+  color: black;
+  font-family: Cambria, serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 10pt;
+  padding-left: 5pt;
+  text-indent: 0pt;
+  text-align: left;
+}
+
+span {
+  color: black;
+  font-family: Cambria, serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+#italicG {
+  font-family: Cambria, serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+#timePeriod {
+  color: #666;
+  font-family: Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 8pt;
+  padding-top: 5pt;
+  padding-left: 5pt;
+  text-indent: 0pt;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+#timePeriodT {
+  color: #666;
+  font-family: Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 8pt;
+  padding-top: 5pt;
+  padding-left: 5pt;
+  text-indent: 0pt;
+  text-align: left;
+  padding-bottom: 15pt;
+}
+
+#sentence {
+  color: #666;
+  font-family: Cambria, serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 8pt;
+  margin: 0pt;
+  padding-top: 6pt;
+  padding-left: 5pt;
+  text-indent: 0pt;
+  text-align: left;
+  padding-bottom: 2.5pt;
+}
+
+#beyondD {
+  padding-top: 25pt;
+}
+
+h4 {
+  color: #666;
+  font-family: Cambria, serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 8pt;
+  padding-left: 5pt;
+  text-indent: 0pt;
+  text-align: left;
+  padding-bottom: 7pt;
+}
+
+#contactMe {
+  color: #666;
+  font-family: Cambria, serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 8pt;
+  margin: 0pt;
+}
+
+#contactMeT {
+  color: #00F;
+  font-family: Cambria, serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 8pt;
+  margin: 0pt;
+  padding-bottom: 7pt;
+  padding-left: 6pt;
+}
+
+#skillT {
+  padding-top: 5pt;
+  padding-bottom: 7pt;
+}
+
+#skills {
+  color: #666;
+  font-family: Cambria, serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 8pt;
+  margin: 0pt;
+  padding-top: 2pt;
+  padding-left: 5pt;
+  text-indent: 0pt;
+  line-height: 120%;
+  text-align: left;
+  padding-bottom: 6pt;
+}
