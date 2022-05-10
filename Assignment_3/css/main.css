@@ -1,0 +1,24 @@
+
+body{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  #jalebi{
+  background-color: #C62828;
+  color: #ffffff;
+  padding: 8px 32px;
+  border-radius: 60px;
+  text-decoration: none;
+  }
+
+  #imarti{
+    background-color: #ffffff ;
+    color: #C62828 ;
+    padding: 8px 32px;
+    border-radius: 60px;
+    border:3px solid #C62828;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
