@@ -1,0 +1,390 @@
+/* body {
+  padding: 0;
+  margin: 0;
+} */
+
+
+header {
+  background-color: #D3D3D3;
+  padding: 8px;
+  align-items: baseline;
+}
+
+header img {
+  padding: 6px 60px;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  /* padding: 16px; */
+  margin: 5px 0px 2px 0px
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all .2s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+  color: #C62828;
+  font-weight: 700;
+}
+
+.navDiv {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+#logo {
+  position: absolute;
+  width: 104px;
+  height: 40px;
+  left: 70px;
+  top: 28px;
+}
+
+/* section */
+
+.backgroundImg {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://kanchivml.com/media/catalog/product/cache/90703d8704e4ada666e645ff56828578/t/g/tga4079661_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Playfair Display', serif;
+  font-weight: 200;
+  text-align: center;
+  font-size: 45px;
+}
+
+#kulfii {
+  text-align: center;
+}
+
+/* Mangalagiri sarees history */
+.agraPetha {
+  background-color: #D3D3D3;
+}
+
+#blueLagoon {
+  font-family: 'Playfair Display', serif;
+  font-style: semibold;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 34px;
+  line-height: 38px;
+  color: black;
+  letter-spacing: 1.5px;
+}
+
+p {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 16px;
+  font-weight: 400;
+  padding-left: 112px;
+  padding-right: 112px;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#samosa {
+  background-color: #C62828;
+  color: #ffffff;
+  padding: 12px 32px;
+  border-radius: 60px;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.mirch {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.namak {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+/* Presnt status */
+.kajuKatli{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+#cherry{
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 112px;
+  padding-bottom: 5px;
+  font-size: 22px;
+  padding-top: 100px;
+  line-height: 25px;
+}
+
+.cutu  {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  text-align: center;
+  /* padding-left: 112px; */
+  padding-bottom: 5px;
+  font-size: 22px;
+  padding-top: 16px;
+  line-height: 25px;
+}
+
+#berry{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-weight: 400;
+  text-align: justify;
+  padding-left: 112px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.imgCol{
+  padding-right: 112px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+#jalebi{
+  background-color: #C62828;
+  color: #ffffff;
+  padding: 12px 32px;
+  border-radius: 60px;
+  text-decoration: none;
+  display: inline;
+  /* text-align: left; */
+  margin-bottom: 32px;
+  /* padding-left: 100px; */
+  margin-left: 112px;
+  margin-top: 16px;
+
+  }
+  .xx {
+margin-top: 16px;
+    }
+
+#bhujia {
+  background-color: #C62828;
+  color: #ffffff;
+  padding: 12px 32px;
+  border-radius: 60px;
+  text-decoration: none;
+  display: inline;
+  /* text-align: left; */
+  margin-bottom: 32px;
+  /* padding-left: 100px; */
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+
+  /* Modern demands and changes */
+  .modern {
+    width: 100%;
+    padding: 50px 0px;
+  }
+
+  .modern img {
+    padding-left: 112px;
+  }
+
+  .modernText {
+    width: 1123px;
+    padding-right: 70px;
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #imarti {
+    background-color: #ffffff;
+    color: #C62828;
+    padding: 12px 32px;
+    border-radius: 60px;
+    border: 3px solid #C62828;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  /* Speciality of Mangalagiri sarees */
+.rasgula{
+  display: flex;
+  padding-left: 112px;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.knowww {
+  background-color:
+}
+
+.milkCake {
+  display: flex;
+  flex-flow: column;
+  max-width: 597px;
+  max-width: 578px;
+  text-align: center;
+  justify-content: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+/* Blogs */
+.chenaPoda {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+
+.imgJi {
+  /* padding-left: 550px;
+  padding-top: 70px;
+  padding-bottom: 70px; */
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32PX;
+}
+
+.lucky {
+  /* text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 16px; */
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 1.5px;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.blog4 {
+  width: 282px;
+height: 348px;
+display: flex;
+flex-flow: column;
+justify-content: center;
+}
+
+#lastPic {
+  \max-width: 560px;
+  max-height: 54px;
+}
+
+
+
+.line {
+  display: block;
+  background-color: #d8d8d8;
+  padding: 8px;
+}
+
+
+
+/* footer  */
+footer {
+  width: 100%;
+  padding-top: : 40px;
+  background-color: white;
+  color: #555555;
+  /* text-align: center; */
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.footerIcon {
+  display: flex;
+  flex-flow: row;
+  /* flex-basis: auto; */
+  /* flex-flow: row; */
+  justify-content: space-around;
+  margin-top: 64px;
+}
+
+footer section div {
+  display: inline-block;
+  line-height: 1.4;
+}
+
+.footerPicn {
+  max-width: 560px;
+  max-height: 112px;
+}
+
+.footerPic {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.footerText {
+  margin-top: 64px;
+}
+
+.social {
+  display: flex;
+  flex-flow: row;
+justify-content: space-between;
+margin: 64px;
+padding-top: 16px;
+}
+
+.whole {
+  justify-content: space-around;
+  padding-left: 306px;
+margin-top: 8px;
+}
+
+.Copyright {
+  display: block;
+  background-color: #d8d8d8;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 32px;
+  color: #000000;
+  /* color: #55555; */
+}

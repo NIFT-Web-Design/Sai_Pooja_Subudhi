@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../Fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../Fonts/Inter-VariableFont_slnt,wght.ttf');
+}
+/* body {
+  margin-left: 8.5%;
+    margin-right: 8.5%;
+} */
+
+main {
+  margin-left: 8.5%;
+    margin-right: 8.5%;
+}
+
+header {
+  background-color: #D3D3D3;
+  padding: 8px;
+  align-items: baseline;
+}
+
+header img {
+  padding: 6px 60px;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  /* padding: 16px; */
+  margin: 5px 0px 2px 0px
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all .2s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+  color: #C62828;
+  font-weight: 700;
+}
+
+.navDiv {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+#logo {
+  position: absolute;
+  width: 104px;
+  height: 40px;
+  left: 70px;
+  top: 28px;
+}
+
+h1 {
+  font-size: 48px;
+}
+h4 {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 9%;
+
+}
+.profile-img {
+  width: 500px;
+  height: 461px;
+
+}
+.profile-title {
+  color:#C62828;
+  font-family:Bebas Neue;
+  margin-top: 21%;
+  padding-left: 9.5%;
+
+}
+.profile-content {
+  font-size: 20px;
+  font-family: Montserrat;
+    padding-left: 9.5%;
+    margin-top: 9.5%;
+}
+.profile-content-details{
+
+  color:grey;
+}
+.profile-para {
+  text-align: justify;
+  margin-top: 10%;
+  font-family: Montserrat;
+}
+.profile-divider {
+  border-bottom: 3px solid #82ADA9;
+      margin-top: 6%;
+      margin-bottom: 8.5%;
+}
+.navigation-section {
+      margin: 0px 7% 0px 8%;
+}
+.navigation-chip {
+  color: #C62828;
+    border: 3px solid #C62828;
+    padding: 10px;
+    border-radius: 20px;
+    width: 164px;
+    display: inline-block;
+    text-align: center;
+    margin: 2.5%;
+    font-family: Montserrat;
+        font-weight: bolder;
+        cursor: pointer;
+
+}
+.navigation-chip:hover {
+  box-shadow:  1px 2px 3px 4px #8888;
+}
+.navigation-chip-active {
+  background-color:#C62828;
+  color: white;
+}
+.grid-container-tree {
+  display: grid;
+  grid-template-columns: 49% 2% 49%;
+  margin-top: 4%;
+}
+.tree-vertical-divider {
+  border-left:3px solid #82ADA9;
+  height: 270vh;
+
+}
+.tree-card {
+  height: 700px;
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 4px #8888;
+  margin-top: 12%;
+
+}
+.card-content {
+  padding:10px;
+}
+.card-img {
+  border-radius: 10px;
+}
+.card-title {
+  position: absolute;
+margin-left: 12%
+}
+.card-para {
+    padding:4px 45px;
+    text-align: justify;
+    height: 300px;
+    overflow-y: scroll;
+    font-family: Montserrat;
+}
+.tree-card3 {
+  margin-top:66%;
+  margin-left: 3%;
+  height: 700px;
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 4px #8888;
+
+}
+.tree-card2 {
+  margin-top: 27%;
+  height: 700px;
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 4px #8888;
+
+}
+.tree-card4 {
+  margin-top: 27%;
+  margin-left: 3%;
+  height: 700px;
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 4px #8888;
+
+
+
+  /* footer  */
+  footer {
+    width: 100%;
+    padding-top: : 40px;
+    background-color: white;
+    color: #555555;
+    /* text-align: center; */
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  .footerIcon {
+    display: flex;
+    flex-flow: row;
+    /* flex-basis: auto; */
+    /* flex-flow: row; */
+    justify-content: space-around;
+    margin-top: 64px;
+  }
+
+  footer section div {
+    display: inline-block;
+    line-height: 1.4;
+  }
+
+  .footerPicn {
+    max-width: 560px;
+    max-height: 112px;
+  }
+
+  .footerPic {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+
+  .footerText {
+    margin-top: 64px;
+  }
+
+  .social {
+    display: flex;
+    flex-flow: row;
+  justify-content: space-between;
+  margin: 64px;
+  padding-top: 16px;
+  }
+
+  .whole {
+    justify-content: space-around;
+    padding-left: 306px;
+  margin-top: 8px;
+  }
+
+  .Copyright {
+    display: block;
+    background-color: #d8d8d8;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 32px;
+    color: #000000;
+    /* color: #55555; */
+  } 
