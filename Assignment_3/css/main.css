@@ -1,16 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
 
+.backgroundImg {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://kanchivml.com/media/catalog/product/cache/90703d8704e4ada666e645ff56828578/t/g/tga4079661_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Playfair Display', serif;
+  font-weight: 200;
+  text-align: center;
+  font-size: 45px;
+}
 
+/* Mangalagiri sarees history */
 .agraPetha {
   background-color: #D3D3D3;
-  }
+}
 
-h1 {
+#blueLagoon {
   font-family: 'Playfair Display', serif;
   font-style: semibold;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 20px;
-  font-size: 36px;
+  font-size: 34px;
   line-height: 38px;
   color: black;
   letter-spacing: 1.5px;
@@ -19,7 +39,7 @@ h1 {
 p {
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   line-height: 16px;
   font-weight: 400;
   padding-left: 112px;
@@ -31,7 +51,7 @@ p {
 #samosa {
   background-color: #C62828;
   color: #ffffff;
-  padding: 8px 32px;
+  padding: 12px 32px;
   border-radius: 60px;
   text-decoration: none;
   display: inline;
@@ -50,42 +70,99 @@ p {
   margin-bottom: 64px;
 }
 
-.kajuKatli {
+/* Presnt status */
+.kajuKatli{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  }
 
 #cherry{
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   text-align: left;
-padding-left: 110px;
-padding-bottom: 60px;
-font-size: 32px;
-padding-top: 33px;
+  padding-left: 112px;
+  padding-bottom: 5px;
+  font-size: 22px;
+  padding-top: 100px;
+  line-height: 25px;
 }
 
-
-#berry {
+#berry{
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   font-weight: 400;
+  text-align: justify;
+  padding-left: 112px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 13px;
 }
 
-.kachori{
+.imgCol{
+  padding-right: 112px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+#jalebi{
+  background-color: #C62828;
+  color: #ffffff;
+  padding: 12px 32px;
+  border-radius: 60px;
+  text-decoration: none;
+  display: inline;
+  text-align: left;
+  margin-bottom: 32px;
+  padding-left: 100px;
+  }
+
+  /* Modern demands and changes */
+  .modern{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+  .modern img{
+  padding-left: 112px;
+
+  }
+
+  .modernText{
+    width: 1123px;
+    padding-right: 70px;
+    }
+
+    .main{
+    display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+button{
+  background-color: #C62828;
+  color: #ffffff;
+  padding: 12px 32px;
+  border-radius: 60px;
+  text-decoration: none;
+  margin-bottom: 32px;
+  padding-left: 100px;
+
+
+}
+
+
+
+
+/* Speciality of Mangalagiri sarees */
+.rasgula {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.rasgula{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.chenaPoda{
+.chenaPoda {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,27 +171,20 @@ padding-top: 33px;
   padding-left: 50px;
 }
 
-.imgJi{
+.imgJi {
   padding-left: 500px;
   padding-top: 70px;
   padding-bottom: 70px;
 }
 
 
-#jalebi{
-  background-color: #C62828;
-  color: #ffffff;
+
+#imarti {
+  background-color: #ffffff;
+  color: #C62828;
   padding: 8px 32px;
   border-radius: 60px;
+  border: 3px solid #C62828;
+  box-sizing: border-box;
   text-decoration: none;
-  }
-
-  #imarti{
-    background-color: #ffffff ;
-    color: #C62828 ;
-    padding: 8px 32px;
-    border-radius: 60px;
-    border:3px solid #C62828;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
+}
