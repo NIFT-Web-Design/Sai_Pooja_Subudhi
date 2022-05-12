@@ -2,8 +2,6 @@
   padding: 0;
   margin: 0;
 } */
-
-
 header {
   background-color: #D3D3D3;
   padding: 8px;
@@ -55,7 +53,6 @@ nav a:hover {
 }
 
 /* section */
-
 .backgroundImg {
   width: 100%;
   height: 70vh;
@@ -129,24 +126,24 @@ p {
 }
 
 /* Presnt status */
-.kajuKatli{
+.kajuKatli {
   display: flex;
   align-items: center;
   justify-content: center;
-  }
+}
 
-#cherry{
+#cherry {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   text-align: left;
   padding-left: 112px;
   padding-bottom: 5px;
   font-size: 22px;
-  padding-top: 100px;
+  padding-top: 20px;
   line-height: 25px;
 }
 
-.cutu  {
+.cutu {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   text-align: center;
@@ -157,25 +154,25 @@ p {
   line-height: 25px;
 }
 
-#berry{
+#berry {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   font-weight: 400;
   text-align: justify;
   padding-left: 112px;
-  padding-right: 50px;
-  padding-bottom: 20px;
+  padding-right: 75px;
+  padding-bottom: 50px;
   padding-top: 10px;
   font-size: 13px;
 }
 
-.imgCol{
+.imgCol {
   padding-right: 112px;
   padding-top: 80px;
   padding-bottom: 100px;
 }
 
-#jalebi{
+#jalebi {
   background-color: #C62828;
   color: #ffffff;
   padding: 12px 32px;
@@ -187,11 +184,11 @@ p {
   /* padding-left: 100px; */
   margin-left: 112px;
   margin-top: 16px;
+}
 
-  }
-  .xx {
-margin-top: 16px;
-    }
+.xx {
+  margin-top: 16px;
+}
 
 #bhujia {
   background-color: #C62828;
@@ -207,45 +204,60 @@ margin-top: 16px;
   margin-top: 16px;
 }
 
+/* Modern demands and changes */
+.modern {
+  width: 100%;
+  padding: 20px 0px;
+}
 
-  /* Modern demands and changes */
-  .modern {
-    width: 100%;
-    padding: 50px 0px;
-  }
-
-  .modern img {
-    padding-left: 112px;
-  }
-
-  .modernText {
-    width: 1123px;
-    padding-right: 70px;
-  }
-
-  .main {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  #imarti {
-    background-color: #ffffff;
-    color: #C62828;
-    padding: 12px 32px;
-    border-radius: 60px;
-    border: 3px solid #C62828;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-
-  /* Speciality of Mangalagiri sarees */
-.rasgula{
-  display: flex;
+.modern img {
   padding-left: 112px;
+  padding-top: 10px;
+}
+
+#cherryT {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: left;
+  padding-left: 85px;
+  line-height: 25px;
+  padding-top: 70px;
+}
+
+#berryT {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-weight: 400;
+  text-align: justify;
+  padding-left: 85px;
+  padding-top: 20px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#imarti {
+  background-color: #ffffff;
+  color: #C62828;
+  padding: 12px 32px;
+  border-radius: 60px;
+  border: 3px solid #C62828;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Speciality of Mangalagiri sarees */
+.rasgula {
+  display: flex;
+  padding-left: 70px;
   flex-flow: row;
   align-items: center;
   justify-content: space-around;
+  padding-top: 100px;
 }
 
 .knowww {
@@ -260,17 +272,27 @@ margin-top: 16px;
   text-align: center;
   justify-content: center;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-top: 5px;
+  padding-right: 100px;
 }
 
-
 /* Blogs */
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 22px;
+  padding-left: 112px;
+  padding-top: 100px;
+}
+
 .chenaPoda {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-flow: row;
-  padding-top: 150px;
-  padding-left: 50px;
+  padding-top: 40px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .imgJi {
@@ -288,26 +310,24 @@ margin-top: 16px;
   font-family: 'Montserrat', sans-serif;
   margin-top: 16px; */
   font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 18px;
-/* identical to box height, or 150% */
-
-text-align: center;
-letter-spacing: 1.5px;
-text-decoration-line: underline;
-text-transform: uppercase;
-
-color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .blog4 {
   width: 282px;
-height: 348px;
-display: flex;
-flex-flow: column;
-justify-content: center;
+  height: 348px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
 
 #lastPic {
@@ -315,15 +335,11 @@ justify-content: center;
   max-height: 54px;
 }
 
-
-
 .line {
   display: block;
   background-color: #d8d8d8;
   padding: 8px;
 }
-
-
 
 /* footer  */
 footer {
@@ -368,15 +384,15 @@ footer section div {
 .social {
   display: flex;
   flex-flow: row;
-justify-content: space-between;
-margin: 64px;
-padding-top: 16px;
+  justify-content: space-between;
+  margin: 64px;
+  padding-top: 16px;
 }
 
 .whole {
   justify-content: space-around;
   padding-left: 306px;
-margin-top: 8px;
+  margin-top: 8px;
 }
 
 .Copyright {
